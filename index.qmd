@@ -6,13 +6,14 @@ about:
     image-shape: rectangle
     image-width: 15em
     links:
-      - text: LinkedIn
+      - icon: linkedin
+        text: LinkedIn
         href: https://www.linkedin.com/in/jeremydhoffman
-      - text: Twitter
-        href: https://www.twitter.com/jeremydhoffman
-      - text: GitHub
+      - icon: github
+        text: GitHub
         href: https://ww.github.com/jeremydhoffman
-      - text: Email
+      - icon: envelope
+        text: Email
         href: mailto::jdh6306@psu.edu
 ---
 
