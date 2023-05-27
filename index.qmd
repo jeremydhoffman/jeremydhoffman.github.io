@@ -1,11 +1,44 @@
 ---
-title: "jeremydhoffman.github.io"
+title: "Jeremy D. Hoffman"
+image: "headshot.jpg"
+about:
+    template: trestles
+    image-shape: rectangle
+    image-width: 15em
+    links:
+      - text: LinkedIn
+        href: https://www.linkedin.com/in/jeremydhoffman
+      - text: Twitter
+        href: https://www.twitter.com/jeremydhoffman
+      - text: GitHub
+        href: https://ww.github.com/jeremydhoffman
+      - text: Email
+        href: mailto::jdh6306@psu.edu
 ---
 
-This is a Quarto website.
+## **Hi there!**
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+Thanks for stopping by my little corner of the internet! My name is Jeremy Hoffman, and I'm excited to meet you.
 
-```{r}
-1 + 1
-```
+## **Current Appointments**
+
+| **Assistant Clinical Professor of Public Policy** (2023 -)
+| Penn State School of Public Policy
+
+| **Undergraduate Programs Coordinator** (2023 -)
+| Penn State School of Public Policy
+
+## **Education**
+
+| **M.P.P. (Concentration: Demography & Health Policy)** (2023)
+| The Pennsylvania State University
+
+| **PgDip. in Legal Practice** (2015)
+| BPP Law School
+
+| **GDip. in Law** (2013)
+| BPP Law School
+
+| **B.A. (Hons) in History** (2012)
+| London School of Economics and Political Science
+
