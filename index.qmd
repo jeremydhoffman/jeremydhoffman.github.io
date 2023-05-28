@@ -11,13 +11,13 @@ about:
         href: https://www.linkedin.com/in/jeremydhoffman
       - icon: github
         text: GitHub
-        href: https://ww.github.com/jeremydhoffman
+        href: https://www.github.com/jeremydhoffman
       - icon: envelope
         text: Email
         href: mailto::jdh6306@psu.edu
 ---
 
-I am an Assistant Clinical Professor of Public Policy and Director of Undergraduate Studies at the Penn State School of Public Policy.
+I am an Assistant Clinical Professor of Public Policy and the Director of Undergraduate Studies at the Penn State School of Public Policy.
 
 I also currently lead the School’s Next Gen Leadership Academy, a non credit leadership program for undergraduate students interested in pursuing careers in public service.
 

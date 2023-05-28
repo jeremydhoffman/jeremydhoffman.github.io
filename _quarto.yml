@@ -11,7 +11,15 @@ website:
       - about.qmd
       - href: "Jeremy_Hoffman_CV.pdf"
         text: CV
-
+    right: 
+      - icon: github
+        href: https://www.github.com/jeremydhoffman
+      - icon: twitter
+        href: https://www.twitter.com/jeremydhoffman
+        
+  page-footer:
+    left: "Copyright © 2023, Jeremy D. Hofmman"
+  
 format:
   html:
     theme: lumen
