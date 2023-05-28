@@ -9,6 +9,8 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
+      - href: "Jeremy_Hoffman_CV.pdf"
+        text: CV
 
 format:
   html:
