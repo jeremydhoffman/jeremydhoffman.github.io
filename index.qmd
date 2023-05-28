@@ -4,7 +4,7 @@ image: "headshot.jpg"
 about:
     template: trestles
     image-shape: rectangle
-    image-width: 15em
+    image-width: 17.5em
     links:
       - icon: linkedin
         text: LinkedIn
@@ -17,19 +17,21 @@ about:
         href: mailto::jdh6306@psu.edu
 ---
 
-## **Hi there!**
+I am an Assistant Clinical Professor of Public Policy and Director of Undergraduate Studies at the Penn State School of Public Policy.
 
-Thanks for stopping by my little corner of the internet! My name is Jeremy Hoffman, and I'm excited to meet you.
+I also currently lead the School’s Next Gen Leadership Academy, a non credit leadership program for undergraduate students interested in pursuing careers in public service.
 
-## **Current Appointments**
+My primary research and teaching interests include population health, health disparities, mortality and longevity, demographic methods, data visualization, and intellectual property law and policy.
+
+### **Current Appointments**
 
 | **Assistant Clinical Professor of Public Policy** (2023 -)
 | Penn State School of Public Policy
 
-| **Undergraduate Programs Coordinator** (2023 -)
+| **Director of Undergraduate Studies** (2023 -)
 | Penn State School of Public Policy
 
-## **Education**
+### **Education**
 
 | **M.P.P. (Concentration: Demography & Health Policy)** (2023)
 | The Pennsylvania State University
