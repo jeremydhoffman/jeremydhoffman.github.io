@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Jeremy D. Hoffman - About</title>
+<title>Jeremy D. Hoffman - Blog</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,6 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -58,7 +60,37 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-date','listing-title','listing-author','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -84,11 +116,11 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./about.html" aria-current="page">
+    <a class="nav-link" href="./about.html">
  <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./blog.html">
+    <a class="nav-link active" href="./blog.html" aria-current="page">
  <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
@@ -119,13 +151,13 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    </div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Quarto">Quarto <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R">R <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
-<main class="content page-columns page-full column-page-left" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">About</h1>
+<h1 class="title">Blog</h1>
 </div>
 
 
@@ -140,22 +172,52 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>I am an Assistant Clinical Professor of Public Policy and the Director of Undergraduate Studies at the Penn State School of Public Policy.</p>
 
-<div class="no-row-height column-margin column-container"><div class="">
-<div class="cell">
-<div class="cell-output-display">
-<p><img src="headshot.jpg" class="img-fluid" alt="Jeremy Hoffman headshot" width="1512"></p>
+
+
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="Quarto,R" data-listing-date-sort="1685246400000" data-listing-file-modified-sort="1685322696556" data-listing-reading-time-sort="0.02">
+<div class="body">
+<a href="./blog/2023-05-28-test-post/index.html">
+<h3 class="no-anchor listing-title">
+Test Blog Post
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Quarto'); return false;">
+Quarto
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
+R
 </div>
 </div>
-</div></div><p>I also lead the School’s Next Gen Leadership Academy, a non-credit leadership program for Penn State undergraduate students interested in pursuing careers in public service.</p>
-<p>My primary research interests include population health, health disparities, mortality &amp; longevity, demographic methods, technology &amp; innovation policy, and intellectual property law &amp; policy.</p>
-<p>I currently teach courses on policy analysis, statistics, and data visualization.&nbsp;</p>
-<p>I am also an English-qualified attorney by professional training. Prior to joining the faculty at the Penn State School of Public Policy, I practiced as an intellectual property attorney in the UK, advising clients in the pharmaceutical, food &amp; beverage, media, and technology industries. Over the course of my legal career, I have worked with a wide range of stakeholders, practicing both as an in-house lawyer – serving as legal counsel at one of Europe’s largest media &amp; entertainment groups – and as an associate attorney (in private practice) at two top 20 UK-ranked international law firms.&nbsp;</p>
-
-
-
-</main> <!-- /main -->
+<a href="./blog/2023-05-28-test-post/index.html">
+<div class="listing-description">
+<p>Blog post description (appears underneath the title in smaller text) which is included on the listing page</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./blog/2023-05-28-test-post/index.html">
+<div class="listing-date">
+May 28, 2023
+</div>
+<div class="listing-author">
+Jeremy Hoffman
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
