@@ -1,15 +1,15 @@
 ---
 title: "About"
 ---
-I am an Assistant Clinical Professor of Public Policy and the Director of Undergraduate Studies at the Penn State School of Public Policy.
-
-:::{.column-margin}
+::: column-margin
 ```{r}
 #| echo: false
 #| fig-alt: "Jeremy Hoffman headshot"
 knitr::include_graphics("headshot.jpg")
 ```
 :::
+
+I am an Assistant Clinical Professor of Public Policy and the Director of Undergraduate Studies at the Penn State School of Public Policy.
 
 I also lead the School's Next Gen Leadership Academy, a non-credit leadership program for Penn State undergraduate students interested in pursuing careers in public service.
 
