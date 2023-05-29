@@ -1,5 +1,7 @@
 project:
   type: website
+  resources:
+    - CNAME
   output-dir: docs
 
 website:
@@ -29,4 +31,3 @@ format:
     toc: true
 
 editor: visual
-
