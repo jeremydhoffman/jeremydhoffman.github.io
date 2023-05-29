@@ -21,8 +21,10 @@ website:
         href: https://www.github.com/jeremydhoffman
 
   page-footer:
-    left: "Copyright © 2023, Jeremy D. Hoffman"
-  
+    left: "Copyright © 2023 Jeremy D. Hoffman. All rights reserved."
+    right: |
+      <span class="faux-block">Made with {{< fa brands r-project >}} and [Quarto](https://quarto.org/)</span>
+      
 format:
   html:
     theme: lumen
