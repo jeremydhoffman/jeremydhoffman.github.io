@@ -11,7 +11,7 @@
     "href": "blog/2023-05-28-test-post/index.html",
     "title": "Test Blog Post",
     "section": "",
-    "text": "Test text goes here.\n\n\n\nCitationBibTeX citation:@online{hoffman2023,\n  author = {Jeremy Hoffman},\n  title = {Test {Blog} {Post}},\n  date = {2023-05-28},\n  url = {https://jeremydhoffman.github.io/blog/2023-05-28-test-post/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nJeremy Hoffman. 2023. “Test Blog Post.” May 28, 2023. https://jeremydhoffman.github.io/blog/2023-05-28-test-post/."
+    "text": "Test text goes here.\n\n\n\nCitationBibTeX citation:@online{hoffman2023,\n  author = {Jeremy Hoffman},\n  title = {Test {Blog} {Post}},\n  date = {2023-05-28},\n  url = {https://jeremydhoffman.com/blog/2023-05-28-test-post/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nJeremy Hoffman. 2023. “Test Blog Post.” May 28, 2023. https://jeremydhoffman.com/blog/2023-05-28-test-post/."
   },
   {
     "objectID": "about.html",

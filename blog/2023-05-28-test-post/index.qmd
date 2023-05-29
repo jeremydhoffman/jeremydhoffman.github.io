@@ -2,12 +2,12 @@
 title: "Test Blog Post"
 description: "Blog post description (appears underneath the title in smaller text) which is included on the listing page"
 author:
-  - name: Jeremy Hoffman
-    url: https://jeremydhoffman.github.io
+  - name: Jeremy Hoffman 
+    url: https://jeremydhoffman.com/
 date: 05-28-2023
 categories: [Quarto, R] # self-defined categories
 citation: 
-  url: https://jeremydhoffman.github.io/blog/2023-05-28-test-post/ 
+  url: https://jeremydhoffman.com/blog/2023-05-28-test-post/ 
 draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
 ---
 
